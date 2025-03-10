@@ -48,14 +48,14 @@ const input = "the quick brown fox";
 const input3 = input.toLocaleUpperCase();
 console.log(input3);
 
-const arr1 = ["hello", "world", "javascript", "array"];
-const arr2 = arr1.reverse();
+const element = ["hello", "world", "javascript", "array"];
+const arr2 = element.reverse();
 console.log(arr2);
 
-const arr3 = [];
-for (const arr3 of arr1) {
-  const revArr = arr3.split("").reverse().join("");
-  arr3.push(revArr);
+const newArr = [];
+for (const word of element) {
+  const revArr = word.split("").reverse().join("");
+  newArr.push(revArr);
 }
-console.log(arr1);
-console.log(arr3);
+
+console.log(newArr);

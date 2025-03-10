@@ -15,6 +15,32 @@ for (let i in text) {
   console.log(text[i]); // index iig n ogno
 }
 
+
+const str4 = "arvan tavan targan tarvaga" 
+const word = str4.split(" ");
+console.log(word);
+console.log(word[3]);
+
+
+for ( let i = 0; i < word.length; i++ ) {
+  console.log(word[i]);
+  
+}
+
+const chars = str4.split ('')
+for (char of chars) {
+} console.log(chars[3]);
+
+const chars1 = str4.split('').reverse().join('');
+console.log('reversed', chars1);
+console.log('4th', chars1[3]);
+
+
+
+ 
+
+
+
 console.log(text.charAt(0));
 console.log(text.charCodeAt(0));
 console.log(text.endsWith(0));
